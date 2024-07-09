@@ -17,8 +17,65 @@
   --h1-fontsize:1.5rem;
   --h2-fontsize:1.25rem;
   --h3-fontsize:1rem;
-  --noraml-fontsize
+  --noraml-fontsize:.938rem;
+  --small-font-size:.813rem;
+  --samller-font-size:.75rem;
 
-
-;
+  /*--- font weight----*/
+  --font-medium:500;
+  --font-semi-bold:600;
+  /*------ margeness-----*/
+  --mb-1:.5rem;
+  --mb-2:1rem;
+  --mb-1:1.5rem;
+  --mb-2:2rem;
+  --mb-1:2.5rem;
+  --mb-2:3rem;
+  /*----z-index----*/
+  --z-tooltip:10;
+  --z-fixed:100;
 }
+@media screen and (min-width:768px){
+  :root{
+    --biggest-fontsize:4rem;
+    --h1-fontsize:2.25rem;
+    --h2-fontsize:1.5rem;
+    --h3-fontsize:1.25rem;
+    --noraml-fontsize:1rem;
+    --small-font-size:.875rem;
+    --samller-font-size:.813rem;
+  }
+}
+*,::befor,::after{
+  box-sizing:border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: var(--headder-hight)0 0 0;
+  font-family: var(--body-font);
+  font-size: var(--noraml-fontsize);
+  background-color: var(--body-color);
+  color:var(--text-color);
+  line-height: 1.6;
+}
+h1,h1,h3,p,ul{
+  margin: 0;
+}
+ul{
+  padding: 0;
+  list-style:none ;
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+/*=====variable Dark theme===*/
+/*===button Dark light===*/
+/*====class css====*/
+/*====layout=====*/
+/*nav*/
